@@ -1,10 +1,10 @@
 {
-  "name": "Conversor_Temperatura ExpressJS",
+  "name": "Conversor_ExpressJS",
   "version": "1.0.0",
   "description": "Práctica Conversor de Temperatura con ExpressJS",
   "main": "index.js",
   "scripts": {
-    "test": "nodejs index.js",
+    "test": "node index.js",
     "view": "open http://localhost:8080/"
   },
 
@@ -15,16 +15,6 @@
     "express-ejs-layouts": "~2.0.0"
   },
 
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alu0100600582/Conversor_ExpressJS.git"
-  },
-
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alu0100600582/Conversor_ExpressJS/issues"
-  },
-  "homepage": "https://github.com/alu0100600582/Conversor_ExpressJS#readme"
+  "license": "ISC"
 }
