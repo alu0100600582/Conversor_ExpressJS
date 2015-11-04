@@ -17,6 +17,6 @@ En esta práctica vamos a seguir trabajando en nuestro Conversos de Temperaturas
 ---
 Repositorio Github: https://github.com/alu0100600582/Conversor_ExpressJS
 
-Despliegue en el IAAS:
+Despliegue en el IAAS: http://10.6.128.94:8080/
 
 Mi GitHub page: http://alu0100600582.github.io/
