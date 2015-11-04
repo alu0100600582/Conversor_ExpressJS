@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "view": "open http://localhost:8080/"
+    "view": "open http://10.6.128.94:8080/"
   },
 
   "devDependencies": {
