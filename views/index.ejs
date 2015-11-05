@@ -1,22 +1,11 @@
-<html>
-  <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-     <title>Conversor de Temperatura en JavaScript</title>
-     <link href="/views/global.css" rel="stylesheet" type="text/css">
-     <script type="text/javascript" src="/views/temperature.js"></script>
+<h1>Conversor de Temperaturas con Express</h1>
 
-  </head>
-  <body>
-    <h1>Conversor de Temperaturas Mejorado</h1>
+<div>
+  <form action="/" method="post">
     <table>
       <tr>
         <th>Introduzca la temperatura a convertir (ejemplo: 32F, 45C, -2.5f):</th>
-        <td><input id="inicial" autofocus onchange="calculate();" placeholder="32F" size="50"></td>
-      </tr>
-      <tr>
-        <th>Temperatura convertida:</th>
-        <td><span class="output" id="converted"></span></td>
+        <td><input type="text" name= "ini_temp" placeholder="32F" size="50" autofocus onchange=""/></td>
       </tr>
     </table>
-  </body>
-</html>
+</div>

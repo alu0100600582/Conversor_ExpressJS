@@ -3,6 +3,7 @@ var app = express();
 
 var path = require('path');
 
+var temperatura = require("./temperature.js");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -26,8 +27,11 @@ app.get('/', function(req, res){
 });
 
 app.post('/', function(req, res){
- var userName = req.body.userName;
-  res.render('greet', {userName: userName, title: 'greet'});
+  var inicial = new temperatura();
+  inicial.inicializar(req.body.ini_temp);
+
+  var resultado = inicial.conversor();
+   res.render('res', {resultado: resultado, title: 'res'});
 });
 
 app.listen(app.get('port'), function() {
